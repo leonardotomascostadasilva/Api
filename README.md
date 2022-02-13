@@ -12,6 +12,7 @@ An api was developed with users crud and login functionality, the CQRS standard 
  - `POST` url_base/v1/login
  
  Request
+ 
  `{
   "userLoginName": "string",
   "password": "string"
@@ -24,6 +25,7 @@ An api was developed with users crud and login functionality, the CQRS standard 
  - `POST` url_base/v1/user
  
  Request
+ 
  `{
   "document": "string",
   "name": "string",
@@ -33,6 +35,7 @@ An api was developed with users crud and login functionality, the CQRS standard 
  }`
  
  Response 201 SUCCESS 
+ 
  `{
   "document": "string",
   "name": "string",
@@ -44,6 +47,7 @@ An api was developed with users crud and login functionality, the CQRS standard 
  - `GET` url_base/v1/user
  
  Response 200
+ 
  `[
   {
     "document": "222222222",
@@ -81,6 +85,7 @@ An api was developed with users crud and login functionality, the CQRS standard 
    - `GET` url_base/v1/user/{userid}
  
  Response 200
+ 
  `{
   "document": "string",
   "name": "string",

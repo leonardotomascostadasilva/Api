@@ -12,39 +12,39 @@ An api was developed with users crud and login functionality, the CQRS standard 
  - `POST` url_base/v1/login
  
  Request
- {
+ `{
   "userLoginName": "string",
   "password": "string"
- }
+ }`
  
- Response 200 SUCCESS or 400 BAD REQUEST
+ Response 200 SUCCESS
  
  ### User
  
  - `POST` url_base/v1/user
  
  Request
- {
+ `{
   "document": "string",
   "name": "string",
   "email": "string",
   "userNameLogin": "string",
   "password": "string"
- }
+ }`
  
  Response 201 SUCCESS 
- {
+ `{
   "document": "string",
   "name": "string",
   "email": "string",
   "userNameLogin": "string",
   "id": "string"
- }
+ }`
  
  - `GET` url_base/v1/user
  
  Response 200
- [
+ `[
   {
     "document": "222222222",
     "name": "admin",
@@ -52,27 +52,27 @@ An api was developed with users crud and login functionality, the CQRS standard 
     "userNameLogin": "admin",
     "id": "7875e3d5-fc0d-493f-b7c7-8654cc1a30d2"
    }
- ]
+ ]`
  
   - `PATCH` url_base/v1/user/{userid}
  
  Request
  
- {
+ `{
   "name": "string",
   "email": "string",
   "userNameLogin": "string"
- }
+ }`
  
  Response 200
  
- {
+ `{
   "document": "string",
   "name": "string",
   "email": "string",
   "userNameLogin": "string",
   "id": "string"
- }
+ }`
  
   - `DELETE` url_base/v1/user/{userid}
  
@@ -81,12 +81,12 @@ An api was developed with users crud and login functionality, the CQRS standard 
    - `GET` url_base/v1/user/{userid}
  
  Response 200
- {
+ `{
   "document": "string",
   "name": "string",
   "email": "string",
   "userNameLogin": "string",
   "id": "string"
- }
+ }`
  
  

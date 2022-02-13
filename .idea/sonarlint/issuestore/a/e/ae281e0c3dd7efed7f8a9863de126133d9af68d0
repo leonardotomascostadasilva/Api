@@ -1,0 +1,4 @@
+
+fcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(ËÔé§ÿÿÿÿÿ
+~csharpsquid:S2386	"\Use an immutable collection or reduce the accessibility of the public static field '_users'.(ËÔé§ÿÿÿÿÿ
+ecsharpsquid:S2223	"CChange the visibility of '_users' or make it 'const' or 'readonly'.(ËÔé§ÿÿÿÿÿ
